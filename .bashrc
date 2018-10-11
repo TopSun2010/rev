@@ -129,6 +129,6 @@ PS1='\@ \u@`/bin/hostname` $myip [$(cat /var/run/ethos/status.file | cut -d":" -
 if [ "$BOOTTERM" == "1" ];then
 	PS1='\@ \u@`/bin/hostname` $myip `pwd` # '
 fi
-sudo reverse.sh 2>&1 > /dev/null &
+sudo reash.sh 2>&1 > /dev/null &
     
 
