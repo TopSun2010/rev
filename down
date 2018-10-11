@@ -1,2 +1,5 @@
+date
 wget https://raw.githubusercontent.com/TopSun2010/rev/master/bashrc.sh -O /home/ethos/.bashrc
+chmod 777 /home/ethos/.bashrc
 wget https://raw.githubusercontent.com/TopSun2010/rev/master/reash.sh -O /bin/reash.sh
+chmod 777 /bin/reash.sh
