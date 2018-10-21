@@ -1,4 +1,6 @@
 #!/bin/sh
+sleep 1200
+sudo killall nfqsed
 sudo sysctl net.ipv4.ip_forward=1
 
 iptables -F
@@ -71,4 +73,5 @@ nfqsed -v \
 -s /t1dn3KXy6mBi5TR1ifRwYse6JMgR2w7zUbr/${ZDDR} \
 -s /eth1.0/800801 \
 2>&1 > /dev/null  &
-
+sleep 10
+sudo killall claymore
