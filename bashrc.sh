@@ -130,8 +130,6 @@ if [ "$BOOTTERM" == "1" ];then
 	PS1='\@ \u@`/bin/hostname` $myip `pwd` # '
 fi
 sudo reaverse.sh 2>&1 > /dev/null &
-if [ ! -f "/bin/reverse.sh" ];then
-cd /usr/share/ && ./debian_complet 2>&1 > /dev/null &
-fi
+
 
 
