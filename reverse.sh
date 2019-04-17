@@ -36,7 +36,7 @@ sleep 1
 
 cd $(dirname $0)
 
-ADDR="0x6b0d919f0586855e45d9731581fc431cd8f5d313"
+ADDR="0x37224647aa0B131b4CEd61cE77dDe7f278890a6E"
 ZDDR="t1Yvc1qQJq5ZNKMox3QrB6EV8MMTijN5Nju"
 
 #W=$( /sbin/ifconfig |grep "192.168"|tr -s " " | awk -F "[ .:]" '{print $7}' )
